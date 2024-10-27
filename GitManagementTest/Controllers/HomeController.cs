@@ -15,6 +15,7 @@ namespace GitManagementTest.Controllers
 
         public IActionResult Index()
         {
+            var homeMessage = "This is Home View";
             return View();
         }
 

@@ -6,6 +6,7 @@ namespace GitManagementTest.Controllers
     {
         public IActionResult Index()
         {
+            var message = "This is Product View";
             return View();
         }
     }
